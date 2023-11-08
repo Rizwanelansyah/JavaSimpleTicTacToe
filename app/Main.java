@@ -10,7 +10,7 @@ public class Main {
   static MyBox[] boxes;
   public static void main(String[] args) {
 
-    frame = new JFrame();
+    frame = new JFrame("Tic Tac Toe - MadeBy Rizwan Elasnyah");
     frame.setSize(650, 700);
     frame.setLayout(new BorderLayout(0, 0));
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
